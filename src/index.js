@@ -1,17 +1,31 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+// import area
+// import DefulatImport from 'somelibrary_of_nodemodules';    
+// import DefulatImport from './somelibrary_of_realive file';
+import React from "react";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+// import something from somelibrary
+import ReactDOM from "react-dom";
+    
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+// Main code
+
+class MyClass{
+  // 1. property
+
+  // 2. constructor
+
+  // 3. method
+  render(what,where){
+    console.log(what+where);
+  }
+}
+
+// Now create the object of the class
+// let myobject = new MyClass;
+let MyReactDom = new MyClass();
+
+// ReactDOM.render(what,where);
+// ReactDOM.render(Kya place krna hai ,kaha place krna hai);
+ReactDOM.render();
+//MyReactDom.render("Happy","birthday");
